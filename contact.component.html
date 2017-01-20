@@ -1,0 +1,23 @@
+<div>
+<div >
+<form [formGroup]="registerForm" (ngSubmit)="submit(form.value)" >
+    <h1 style="text-align: center">What can we offer you<hr style="width:30%;margin-top: -0px"></h1>
+    <ul style="padding-left: 40%;list-style-type: none">
+        <li>Your name </li>
+        <li> <input type="text" formControlName = "name "></li>
+        <li>Mobile Contact </li>
+        <li> <input type="text" formControlName = "phoneN "></li>
+        <li>Purpose </li>
+        <li> <textarea formControlName = "purpose " cols="40"></textarea>
+         
+        <li> <button type="submit" onclick="">Submit</button></li>
+      </ul>   
+</form>
+</div>
+<div>
+</div>
+<div style="position:fixed;width:100%;bottom:-3px;height:15%;margin:-8px;background-color:#ff0088">My Footer</div>
+    
+</div>
+
+    
